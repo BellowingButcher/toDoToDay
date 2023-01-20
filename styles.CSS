@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  min-width: 300px;
+  max-width: 369px;
+  font-family: Arial, sans-serif;
+  color: #222222;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+container {
+  min-width: 300px;
+}
+
+body {
+  background-color: ivory;
+}
+.survey-form {
+  background-color: black;
+  border: solid
+}
+
+.subheading {
+font-size: 17;
+font-family: Helvetica, sans-serif;
+color: #898989;
+}
+input {
+  display: block;
+}
