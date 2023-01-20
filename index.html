@@ -1,0 +1,99 @@
+<DOCTYPEhtml!>
+  <html lan='en'>
+    <head>
+      <meta charset='utf-8' />
+      <meta title='Butchers Questionare' />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href='styles.css' rel='stylesheets' />
+    </head>
+    <body>
+      <container>
+        <section class='title'>
+          <h1 id='title'>Butchers Questionare </h1>
+          <p class='description'>Do you think you know the right answers? Answer
+            and find
+            out!</p>
+        </section>
+        <section>
+          <form id='survey-form'>
+            <fieldset>
+              <legend>Your Information</legend>
+              <label for='name-label'><input id='name' type='text'
+                  placeholder='Full name
+                  with middle initial' required /></label>
+              <label for='email-label'><input id='email' type='email'
+                  placeholder='Email
+                  Address' required /></label>
+              <label for='number-label'><input id='number' type='number'
+                  min='13' max='120'
+                  placeholder='Age' /></label>
+              <select id='dropdown' type='dropdown'>
+                <option placeholder='Select an option' value=''></option>
+                <option value='1'></option>
+                <option value='2'></option>
+                <option value='3'></option>
+                <option value='4'></option>
+                <option value='5'></option>
+              </select>
+              <label for=''><input name='answerDisplayOrEmail' value='display'
+                  type='radio'
+                  />Display on page</label>
+              <label for=''><input name='answerDisplayOrEmail' value='email'
+                  type='radio'
+                  />Email Me</label>
+            </fieldset>
+            <fieldset>
+              <legend>What is your steak of choice?</legend>
+              <label for=''><input name='steakOfChoice' value='' type='radio'
+                  />Tenderloin/Fillet</label>
+              <label for=''><input name='steakOfChoice' value='' type='radio'
+                  />Ribeye</label>
+              <label for=''><input name='steakOfChoice' value='' type='radio' />New
+                York
+                Strip</label>
+              <label for=''><input name='steakOfChoice' value='' type='radio'
+                  />Top-Sirloin</label>
+              <label for='other'><input name='steakOfChoice' value='other'
+                  type='radio'
+                  />Other: <input type='text' name='other-steak' /></label>
+            </fieldset>
+            <fieldset>
+              <legend>Which levels of doneness are acceptable?</legend>
+              <label for=''><input name='' value='' type='checkbox' />Rare</label>
+              <label for=''><input name='' value='' type='checkbox' />Medium-Rare</label>
+              <label for=''><input name='' value='' type='checkbox' />Medium</label>
+              <label for=''><input name='' value='' type='checkbox' />Medium-Well</label>
+              <label for=''><input name='' value='' type='checkbox' />Well-Done</label>
+            </fieldset>
+            <fieldset>
+              <legend>What is your favorite feed type for your steak?</legend>
+              <label for=''><input name='feedOfChoice' value='' type='radio'
+                  />Grass-Fed</label>
+              <label for=''><input name='feedOfChoice' value='' type='radio'
+                  />Grain-Finished</label>
+              <label for=''><input name='feedOfChoice' value='' type='radio' />I
+                don't care,
+                MEAT!</label>
+            </fieldset>
+            <fieldset>
+              <legend>Acceptable cooking methods?</legend>
+              <label for=''><input name='' value='gas' type='checkbox' />Gas</label>
+              <label for=''><input name='' value='flat-top' type='checkbox' />Flat-Top
+                Griddle</label>
+              <label for=''><input name='' value='briquete' type='checkbox' />Charcoal
+                Briquete</label>
+              <label for=''><input name='' value='lump' type='checkbox' />Charcoal
+                Lump</label>
+              <label for=''><input name='' value='open-air' type='checkbox' />Open
+                Air Wood
+                Fire</label>
+              <label for=''><input name='' value='smoking' type='checkbox' />Smoking</label>
+              <label for=''><input name='' value='sous-vide' type='checkbox' />Sous
+                Vide</label>
+            </fieldset>
+
+          </form>
+        </section>
+      </container>
+    </body>
+  </html>
